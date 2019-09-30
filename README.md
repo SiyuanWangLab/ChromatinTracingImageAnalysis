@@ -5,4 +5,4 @@ run_calib.m: This file calibrates the transformation matrix between the two fluo
 
 run_bead.m: This file measures the sample drift during the long-term chromatin tracing imaging procedure. We have fiducial bead markers imaged in the 488-nm channel during chromatin tracing. This file fits the 488-nm fluorescent beads' positions in sequential rounds of imaging and measures the drift of the bead positions during the procedure. The drift information is used in run_foci.m to correct the drift in chromatin trace abstraction.
 
-run_foci.m: This file fits the center positions of the imaged TADs and export them.
+run_foci.m: This file fits the center positions of the imaged TADs and exports them.
